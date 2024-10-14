@@ -1,0 +1,10 @@
+Quelle structure algorithmique permet de tester dans quel état se trouve la machine ?
+De manière algo/ à la main : Conditionnel :  en fonction des états on change l'instruction 
+
+Comment sont représentés avec ce design pattern les états de la machine ? (Vous pouvez dessiner rapidement le diagramme de classes correspondant)
+les états sont des objets extends de State  
+
+Comment a été simplifiée la structure algorithmique citée dans la méthode précédente ?
+XState -> objet
+
+Repérer sur le statechart quelle transition passe de l'état drawing à l'état idle. Quelle fonction correspond à l'action de cette transition ?
